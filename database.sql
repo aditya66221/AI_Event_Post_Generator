@@ -2,7 +2,7 @@ CREATE DATABASE ai_events;
 
 USE ai_events;
 
--- Table to store event details
+-- Table to store events
 CREATE TABLE events (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
@@ -12,7 +12,7 @@ CREATE TABLE events (
     description TEXT
 );
 
--- Table to store generated social media posts
+-- Table to store generated posts
 CREATE TABLE posts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     event_id INT,
