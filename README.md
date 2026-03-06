@@ -1,14 +1,24 @@
 # AI Event Social Media Post Generator
 
-This project generates social media posts automatically based on event details.
+An AI-powered system that automatically generates social media posts based on event details.
 
-Tech Stack:
-- Flask(For API's)
-- MySQL
+## Tech Stack
 - Python
+- Flask
+- MySQL
 
-Features:
-- Add events
-- Store events in MySQL
-- Generate platform specific posts
-- LinkedIn, Instagram, Facebook, Twitter support
+## Features
+- Event management
+- Automatic post generation
+- Platform-specific posts
+- LinkedIn / Instagram / Facebook / Twitter support
+
+## Run Project
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run server
+
+python app.py
